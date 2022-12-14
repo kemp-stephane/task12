@@ -1,0 +1,44 @@
+video{
+    position:fixed; /* i set the position to fixed to make it stays in the same place even if the page is scrolled up or down*/
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  .card {  
+     position:relative; /* this willposition the card to it's normal position */
+    height: 150px;
+    width: 150px;
+    background-color: rgb(78, 76, 76);
+    float:left;
+    margin:15px;
+    text-align:center;
+    padding:50px;
+    color:red;
+    font-size: 60px;
+  }
+  
+  .card:hover{ /* when put the mouse over it will hover the card will change a background color */
+    background-color: rgb(3, 37, 82);
+  }
+  
+  .head1{
+    position:relative;
+    color:rgb(195, 195, 7);
+    
+  }
+  
+  button{
+    font-size:20px;
+    position:relative;
+  }
+  
+  button:hover{
+    color:rgb(238, 238, 238);
+    background-color: rgb(187, 39, 39);
+  }
+  .h1{
+    position:relative;
+    color:white;
+  }
